@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "path": "docs/message.txt",
+  "before_sha256": "0c355a5ba966b4f94700021b07e3ca27eb0850456020e0c7f05353877436fb70",
+  "after_sha256": "eef79df8bcba48dad690d744abff028fad9a647b141563ec721945659dd859eb",
+  "after_text": "# Synthetic message\n\nThe demo tool is ready for release.\n"
+}
