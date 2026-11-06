@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patchport"
+version = "0.1.0"
+description = "Portable text-change bundles with baseline checks, dry-run previews, and guarded application"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "ksliu0307us-ua", email = "ksliu0307.us@gmail.com" }]
+dependencies = []
+
+[project.scripts]
+patchport = "patchport.cli:main"
+
+[tool.setuptools]
+packages = ["patchport"]
